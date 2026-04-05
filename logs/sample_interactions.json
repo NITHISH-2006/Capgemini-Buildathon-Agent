@@ -1,0 +1,72 @@
+[
+  {
+    "input": "How do I reset my password?",
+    "output": "If you forgot your password, you can use the 'Forgot Password' link on the login page... Alternatively, you can ask me to reset it.",
+    "intent": "Account",
+    "sentiment": "Neutral",
+    "agent_handled": "Resolver Agent"
+  },
+  {
+    "input": "Please reset my password immediately.",
+    "output": "Your password has been reset successfully. Your new temporary password is: Temp#1234.",
+    "intent": "Account",
+    "sentiment": "Neutral",
+    "agent_handled": "Action Agent"
+  },
+  {
+    "input": "My screen went blank and I am very frustrated and angry!",
+    "output": "I apologize for the immense frustration this is causing you. I have immediately escalated this to human support. Your tracking Ticket ID is #1.",
+    "intent": "Technical Issue",
+    "sentiment": "Negative",
+    "agent_handled": "Escalation Agent"
+  },
+  {
+    "input": "When will I receive my service invoice?",
+    "output": "Invoices for recurring services are generated on the 1st of every month. You can view them in your Billing dashboard.",
+    "intent": "Billing",
+    "sentiment": "Neutral",
+    "agent_handled": "Resolver Agent"
+  },
+  {
+    "input": "Can I track my support ticket status?",
+    "output": "Once a ticket is created, you will receive a Ticket ID. You can go to the 'My Tickets' section in the self-service portal to track its status.",
+    "intent": "Support",
+    "sentiment": "Neutral",
+    "agent_handled": "Resolver Agent"
+  },
+  {
+    "input": "I need to log an issue, but I don't need a human right now.",
+    "output": "I have created a ticket for your issue. Your Ticket ID is 2. Our standard support team will review it during business hours.",
+    "intent": "Technical Issue",
+    "sentiment": "Neutral",
+    "agent_handled": "Action Agent"
+  },
+  {
+    "input": "The service is a complete disaster. Nothing is working properly, I want to speak to someone now!",
+    "output": "I am so sorry to hear about your experience. I have created an urgent escalation ticket (ID: 3) and a senior human agent will contact you shortly.",
+    "intent": "Complaint",
+    "sentiment": "Negative",
+    "agent_handled": "Escalation Agent"
+  },
+  {
+    "input": "What are your support hours?",
+    "output": "Our Intelligent Support Agent is available 24/7. Human agents are available Monday to Friday, from 9 AM to 6 PM EST.",
+    "intent": "General",
+    "sentiment": "Positive",
+    "agent_handled": "Resolver Agent"
+  },
+  {
+    "input": "Good job, thanks for resetting my password earlier.",
+    "output": "You are very welcome! If you need anything else, I am here 24/7.",
+    "intent": "Feedback",
+    "sentiment": "Positive",
+    "agent_handled": "Resolver Agent"
+  },
+  {
+    "input": "My temporary password expired.",
+    "output": "I see your temporary password expired. Let me reset it for you again. Done! Your new temporary password is: Temp#1234.",
+    "intent": "Account",
+    "sentiment": "Neutral",
+    "agent_handled": "Action Agent"
+  }
+]

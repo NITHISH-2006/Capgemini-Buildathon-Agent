@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Databases & Vector store
+database/
+chroma_db/
+chroma.sqlite3
+*.db
+*.sqlite
+
+# Streamlit
+.streamlit/
+
+# AI Artifacts
+logs/*.json
+logs/*.log
+!logs/sample_interactions.json
+
+# System
+.vscode/
+.idea/
+.DS_Store
+*.swp
